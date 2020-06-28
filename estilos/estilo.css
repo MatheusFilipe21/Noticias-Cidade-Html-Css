@@ -90,7 +90,7 @@ body.fotos #navegacao a#fotos {
 
 #duas-colunas #primario {
     width: 555px;
-    float: left;
+    float: right;
 }
 
 #uma-coluna #primario {
@@ -116,6 +116,16 @@ h2 {
     background: #294c71;
     color: #ffffff;
     padding: 5px;
+}
+
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e50040;
 }
 
 .caixa-conteudo {
@@ -204,6 +214,7 @@ h3 {
 
 #lista-noticias li a p {
     font-size: 0.7em;
+    color: #000000;
 }
 
 #lista-noticias li:hover {
